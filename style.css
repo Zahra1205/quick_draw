@@ -1,0 +1,60 @@
+body{
+    background-color: #F6F6F2;
+}
+h1{
+    background-color: #C2EDCE;
+    color: #388087;
+}
+#showModal{
+    float: right;
+    background-color: #6FB3B8;
+}
+p{
+    font-size: 18px;
+    padding-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+#Sketch{
+    font-size: 19px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+}
+#score{
+    position: relative;
+    top: 30%;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+#timer{
+    position: relative;
+    top: 30%;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+#clear{
+    background-color: #6FB3B8;
+    border-color: #6FB3B8;
+    font-size: 15px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 38px grey;
+    }
+    to{
+        box-shadow: 1px 1px 38px white;
+    }
+}
